@@ -1,0 +1,50 @@
+.pull-right {float: right;}
+.pull-left {float: left;}
+
+.c333 {color: #333;}
+.c666 {color: #666;}
+.c999 {color: #999;}
+
+.f14 {font-size: 14px;}
+.f13 {font-size: 13px;}
+.strong {font-weight: bold;}
+
+.el-submenu .el-menu {
+    border-left: 4px solid green;
+}
+.el-submenu [class^=el-icon-] {
+    margin-right: 6px;
+}
+
+.img-responsive {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-sizing {
+    width:100%;
+    box-sizing: border-box;
+}
+
+.separator {
+  margin-bottom: 30px;
+}
+
+
+.page-block {
+  float: right;
+  padding-top: 10px;
+}
+
+.title-h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}

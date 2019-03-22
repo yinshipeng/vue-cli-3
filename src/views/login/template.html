@@ -1,0 +1,44 @@
+<div class="login">
+    <p class="icon-houbank"></p>
+    <div class="home">
+        <span class="b-houbank">AIKUCUN</span>
+        <span class="s-houbank"> .com</span>
+    </div>
+    <div class="wrap">
+        <div class="permission-system">商户云平台<label class="system">管理系统</label></div>
+        <div class="form">
+            <div class="form-item">
+                <img src="@/assets/images/combined-shape.svg">
+                <div class="form-input form-input1">
+                    <input name="username" autocomplete="off" placeholder="Username" type="text" maxlength="40" v-model="form.username">
+                </div>
+            </div>
+
+            <div class="form-item">
+                <img src="@/assets/images/combined-shape-copy.svg">
+                <div class="form-input form-input2">
+                    <input name="password" type="password" class="password" placeholder="Password" maxlength="30"
+                           @keyup.enter="login" v-model="form.password">
+                </div>
+            </div>
+            <div class="error">
+                <label id="errorMsg">{{errorMsg}}</label>
+            </div>
+            <button class="button" @click="login">Login</button>
+
+            <div class="remember">
+                <label class="ui-checkbox">
+                    <input class="ui-checkbox-input" type="checkbox" v-model="checked">
+                    <span class="ui-checkbox-box">
+                <label class="inner"></label>
+            </span>
+                    <span class="checkbox-label">remember me</span>
+                </label>
+            </div>
+
+            <div class="forgot">Forgot your password？</div>
+
+        </div>
+    </div>
+</div>
+</div>
